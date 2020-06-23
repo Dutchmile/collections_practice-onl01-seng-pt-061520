@@ -27,5 +27,5 @@ end
 
 # arr_rev = [12, 4, 35]
 def reverse_array(arr_rev)
-  arr_rev = arr_rev.reverse
+  arr_rev.reverse
 end
