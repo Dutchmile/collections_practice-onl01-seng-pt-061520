@@ -5,3 +5,4 @@ def sort_array_asc(arr_int)
 arr_int.sort do |a, b|
   a <=>
 end
+end
