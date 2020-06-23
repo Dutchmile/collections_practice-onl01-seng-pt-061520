@@ -24,3 +24,7 @@ def swap_elements(arr_nam)
 arr_nam[1], arr_nam[2] = arr_nam[2], arr_nam[1]
 return arr_nam
 end
+
+def reverse.array([12, 4, 35])
+  [12, 4, 35].reverse
+end
