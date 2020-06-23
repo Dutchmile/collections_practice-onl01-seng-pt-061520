@@ -25,6 +25,7 @@ arr_nam[1], arr_nam[2] = arr_nam[2], arr_nam[1]
 return arr_nam
 end
 
-def reverse.array([12, 4, 35])
-  [12, 4, 35].reverse
+arr_rev = [12, 4, 35]
+def reverse.array(arr_rev)
+  arr_rev.reverse
 end
