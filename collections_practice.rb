@@ -21,6 +21,6 @@ end
 end
 
 def swap_elements(arr_nam)
-  arr_nam[1].delete
-  arr.nam[1].push
+arr_nam[1], arr_nam[2] = arr_nam[2], arr_nam[1]
+return arr_nam  
 end
