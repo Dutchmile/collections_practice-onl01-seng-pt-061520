@@ -26,7 +26,6 @@ return arr_nam
 end
 
 # arr_rev = [12, 4, 35]
-def reverse(arr_rev)
-  binding.pry
+def reverse_array(arr_rev)
   arr_rev = arr_rev.reverse
 end
