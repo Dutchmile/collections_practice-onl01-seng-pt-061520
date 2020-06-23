@@ -6,3 +6,9 @@ arr_int.sort do |a, b|
   a <=> b
   end
 end
+
+def sort_array_desc(arr_int)
+  arr_int.sort do |a, b|
+    b <=> a
+  end
+end
