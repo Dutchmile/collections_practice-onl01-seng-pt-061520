@@ -1,5 +1,6 @@
 
 arr_int = [25, 7, 1]
+arr_str = ["dogs", "cat", "Horses"]
 
 def sort_array_asc(arr_int)
 arr_int.sort do |a, b|
@@ -12,3 +13,5 @@ def sort_array_desc(arr_int)
     b <=> a
   end
 end
+
+def sort
