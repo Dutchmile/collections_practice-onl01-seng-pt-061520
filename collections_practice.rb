@@ -14,4 +14,9 @@ def sort_array_desc(arr_int)
   end
 end
 
-def sort
+def sort_array_char_count(arr_str)
+  arr_str.sort |a, b|
+  a.length <=> b.length
+end
+end
+
