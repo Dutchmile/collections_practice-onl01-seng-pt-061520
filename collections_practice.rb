@@ -1,4 +1,4 @@
-
+require 'pry'
 arr_int = [25, 7, 1]
 arr_str = ["dogs", "cat", "Horses"]
 arr_nam = ["blake", "ashley", "scott"]
@@ -25,7 +25,8 @@ arr_nam[1], arr_nam[2] = arr_nam[2], arr_nam[1]
 return arr_nam
 end
 
-arr_rev = [12, 4, 35]
-def reverse.array(arr_rev)
+# arr_rev = [12, 4, 35]
+def reverse(arr_rev)
+  binding.pry
   arr_rev = arr_rev.reverse
 end
