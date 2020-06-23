@@ -1,7 +1,7 @@
 
 arr_int = [25, 7, 1]
 arr_str = ["dogs", "cat", "Horses"]
-
+arr_nam = ["blake", "ashley", "scott"]
 def sort_array_asc(arr_int)
 arr_int.sort do |a, b|
   a <=> b
@@ -18,4 +18,9 @@ def sort_array_char_count(arr_str)
   arr_str.sort do |a, b|
   a.length <=> b.length
 end
+end
+
+def swap_elements(arr_nam)
+  arr_nam[1].delete
+  arr.nam[1].push
 end
