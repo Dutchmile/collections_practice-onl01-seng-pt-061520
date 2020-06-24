@@ -52,6 +52,6 @@ end
 def add_s(array)
   array.each do |x|
       x << "s"
-      x.pop if x.index = 1
+      x.pop if array[x].index = 1
   end
 end
