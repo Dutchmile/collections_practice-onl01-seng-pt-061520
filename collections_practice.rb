@@ -50,7 +50,7 @@ end
 
 def add_s(array)
   array.each do |x|
-    if 0 < x < 2
+    if 0 < array[x].index < 2
        array[x] = array[x]
     else
       array[x].push("s")
