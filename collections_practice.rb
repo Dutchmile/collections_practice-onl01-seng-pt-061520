@@ -51,6 +51,6 @@ end
 
 def add_s(array)
   array.each do |x|
-      x.push("s")
+      array[x].push("s")
   end
 end
