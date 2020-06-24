@@ -52,6 +52,5 @@ end
 def add_s(array)
   array.each do |x|
       x.push("s")
-    end
   end
 end
