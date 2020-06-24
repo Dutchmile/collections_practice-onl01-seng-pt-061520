@@ -52,5 +52,7 @@ end
 def add_s(array)
   array.each do |x|
       x << "s"
+      if x.index = 1
+        x.pop
   end
 end
