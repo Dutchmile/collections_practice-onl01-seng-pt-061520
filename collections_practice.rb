@@ -36,6 +36,7 @@ arr_dollar = []
     x[2] = "$"
     arr_dollar << x
   end
+  arr_dollar
 end
 
 def find_a(array)
