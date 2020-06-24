@@ -51,7 +51,6 @@ end
 
 def add_s(array)
   array.each do |x|
-      x << "s"
-      x.pop if x = "feets"
+    x << "s" if x != "feet"
   end
 end
