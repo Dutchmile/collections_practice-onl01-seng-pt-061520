@@ -40,7 +40,7 @@ end
 
 def find_a(array)
   array.select do |x|
-    x[0] = "a"
+    array[x].start_with?("a")
   end
 end
 
