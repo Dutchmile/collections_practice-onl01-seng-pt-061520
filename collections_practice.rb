@@ -33,6 +33,28 @@ end
 def kesha_maker(arr_no_dollar)
   arr_dollar = []
   arr_no_dollar.each do |x|
-    x[2] = "$"
+    arr_dollar << (x[2] = "$")
+  end
+  arr_dollar
+end
+
+def find_a(array)
+  array.select do |x|
+    x[0] = "a"
   end
 end
+
+def sum_array(array)
+  array.sum
+end
+
+def add_s(array)
+  array.each do |x|
+    if 0 < x < 2
+       array[x] = array[x] 
+    else 
+      array[x].push("s")
+    end
+  end
+end  
+  
