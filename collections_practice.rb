@@ -51,9 +51,6 @@ end
 
 def add_s(array)
   array.each do |x|
-    if 0 < x.index < 2
-       return x
-    else
       x.push("s")
     end
   end
